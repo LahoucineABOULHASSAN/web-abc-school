@@ -1,0 +1,27 @@
+.vscode
+/api/__pycache__
+/api/migrations
+/api/v_env
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/app-ui/node_modules
+
+
+# testing
+/app-ui/coverage
+
+# production
+/app-ui/build
+
+# misc
+/app-ui/.DS_Store
+/app-ui/.env.local
+/app-ui/.env.development.local
+/app-ui/.env.test.local
+/app-ui/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
